@@ -122,13 +122,6 @@ func calculMasques(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, maskROut c
 	}
 
 	fmt.Println("coucou")
-
-	// mise a zero des variable
-	for num_pix := range pixels {
-		maskR[num_pix], maskV[num_pix], maskB[num_pix] = 0, 0, 0
-	}
-	cR, cV, cB = 0, 0, 0
-
 }
 
 func detection(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, res chan uint8) {
@@ -285,6 +278,9 @@ func main() {
 	for i := range valRGB {
 		valRGB[i] = make(chan uint8)
 		cndRGB[i] = make(chan uint8)
+	}
+	for i := range maskRGB {
+		maskRGB[i] = make(chan uint8)
 	}
 
 	// lancement des goroutines ( execution parallele)
