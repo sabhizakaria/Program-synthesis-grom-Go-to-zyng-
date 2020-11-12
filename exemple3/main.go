@@ -6,7 +6,7 @@ import (
 )
 
 // tableau de pixel à envoyer
-var pixels = [...]uint16{63483, 62488, 1016, 31, 401, 31}
+var pixels = [...]uint16{1200, 1200}
 
 // calcul de la valeur de la couleur prédominante ansi que les filres de chaque pixel
 func decoupage(pIn chan uint16, pOut chan uint16, valROut chan uint8, valVOut chan uint8, valBOut chan uint8) {
@@ -30,6 +30,8 @@ func decoupage(pIn chan uint16, pOut chan uint16, valROut chan uint8, valVOut ch
 		valROut <- uint8(valR)
 		valVOut <- uint8(valV)
 		valBOut <- uint8(valB)
+		// remise a zero les valeur
+		valR, valV, valB = 0, 0, 0
 
 	}
 
@@ -43,7 +45,6 @@ func conditions(valRIn chan uint8, valVIn chan uint8, valBIn chan uint8, cRout c
 	// boucle d'envoi
 
 	for num_pix := range pixels {
-		fmt.Printf("conditions num_pix = %d\n", num_pix)
 		valR = <-valRIn
 		valV = <-valVIn
 		valB = <-valBIn
@@ -59,18 +60,11 @@ func conditions(valRIn chan uint8, valVIn chan uint8, valBIn chan uint8, cRout c
 	}
 	// envoie des valeurs a la fonction calcul masque et detection
 
-	fmt.Printf("condition de R %d\n", cR)
-	fmt.Printf("condition de V %d\n", cV)
-	fmt.Printf("condition de B %d\n", cB)
-
 	for i := range pixels {
-		fmt.Printf("conditions i1 = %d\n", i)
 		cRout <- cR[i]
 		cVout <- cV[i]
 		cBout <- cB[i]
-	}
-	for i := range pixels {
-		fmt.Printf("conditions i2 = %d\n", i)
+
 		cRout <- cR[i]
 		cVout <- cV[i]
 		cBout <- cB[i]
@@ -91,14 +85,9 @@ func calculMasques(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, maskROut c
 	var maskR, maskV, maskB [len(pixels)]uint8
 	// boucle de reception
 	for num_pix := range pixels {
-		fmt.Printf("calculMasques num_pix = %d\n", num_pix)
 		cR = <-cRIn
 		cV = <-cVIn
 		cB = <-cBIn
-		fmt.Printf("len de pixel %d\n", len(pixels))
-		fmt.Printf("condition reçu de R %d\n", cR)
-		fmt.Printf("condition reçu  de V %d\n", cV)
-		fmt.Printf("condition reçu de B %d\n", cB)
 		if cR == 1 {
 			maskR[num_pix] = 31 // rouge en 5 bits
 		}
@@ -110,18 +99,18 @@ func calculMasques(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, maskROut c
 		}
 	}
 
-	fmt.Println("avant boucle")
-	fmt.Printf("maskR = %d, maskV = %d, maskB = %d\n", maskR, maskV, maskB)
-
 	// boucle d'envoie
 	for num_pix := range pixels {
-		fmt.Printf("tour = %d\n", num_pix)
 		maskROut <- maskR[num_pix]
 		maskVOut <- maskV[num_pix]
 		maskBOut <- maskB[num_pix]
 	}
+	// remise a zero des masques
 
-	fmt.Println("coucou")
+	for num_pix := range pixels {
+		maskR[num_pix], maskV[num_pix], maskB[num_pix] = 0, 0, 0
+	}
+
 }
 
 func detection(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, res chan uint8) {
@@ -136,6 +125,7 @@ func detection(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, res chan uint8
 			cptR++ // rouge en 5 bits
 
 		}
+
 		if cV == 1 {
 			cptV++ // Vert codé en 6 bit
 		}
@@ -152,9 +142,11 @@ func detection(cRIn chan uint8, cVIn chan uint8, cBIn chan uint8, res chan uint8
 				res_seg = 0
 			}
 			cptR, cptV, cptB, num_pix = 0, 0, 0, 0
-			fmt.Printf("Nombre de pixel traité(s): %d\n", num_pix)
 			res <- res_seg
+			res_seg = 0
 		}
+
+		// mise a zero de la valeur du couleur dominante
 
 	}
 
@@ -173,7 +165,6 @@ func memoirePixel(pIn chan uint16, pOut chan uint16) {
 	for num_pix := range pixels {
 		pOut <- tab_pixel[num_pix]
 	}
-	fmt.Println("memoirePixel OK")
 }
 
 func calculPixel(pIn chan uint16, maskRIn chan uint8, maskVIn chan uint8, maskBIn chan uint8, pxResOut chan string) {
@@ -187,15 +178,9 @@ func calculPixel(pIn chan uint16, maskRIn chan uint8, maskVIn chan uint8, maskBI
 
 	for num_pix := range pixels {
 		pixel = <-pIn
-		fmt.Println("pIn ok")
 		maskR = <-maskRIn
-		fmt.Println("maskR ok")
 		maskV = <-maskVIn
-		fmt.Println("maskV ok")
 		maskB = <-maskBIn
-		fmt.Println("maskB ok")
-
-		fmt.Println("calculPixel1 OK")
 
 		// convertion du pixel en format 16 bit et decoupage
 
@@ -212,17 +197,17 @@ func calculPixel(pIn chan uint16, maskRIn chan uint8, maskVIn chan uint8, maskBI
 		resR = fmt.Sprintf("%05b", uint8(valR)&maskR)
 		resV = fmt.Sprintf("%06b", uint8(valV_m)&maskV)
 		resB = fmt.Sprintf("%05b", uint8(valB)&maskB)
-		fmt.Println("did you sprintf?")
+
 		// assemlage et envoie
 		pixel_str[num_pix] = resR + resV + resB
-		fmt.Printf("calculPixel num_pixel = %d\n", num_pix)
 	}
-
-	fmt.Println("envoi dans pxResOut")
 
 	// envoie du pixel
 	for i := range pixels {
 		pxResOut <- pixel_str[i]
+	}
+	for i := range pixels {
+		pixel_str[i] = ""
 	}
 }
 
@@ -231,11 +216,10 @@ func calculPixel(pIn chan uint16, maskRIn chan uint8, maskVIn chan uint8, maskBI
 func aff_pix(pIn chan string, cOut chan int) {
 	for range pixels {
 		pixel := <-pIn
-		fmt.Printf("Valeur du pixel reçue:    %s \n", pixel)
+		fmt.Printf("Valeur du pixel reçue: |%s| \n", pixel)
 		fmt.Println()
 	}
 	cOut <- 1
-	fmt.Println("aff_pix OK")
 }
 
 // affichage du code de la couleur prédominanate (7seg)
@@ -246,16 +230,16 @@ func affichage_couleur(cIn chan uint8, cOut chan int) {
 	// affichage de la couleur dominante
 	switch res {
 	case 0:
-		fmt.Printf("Valeur reçue : %d Couleur dominante ==> Bleu\n", res)
+		fmt.Printf("Valeur reçue : %d ==> Couleur dominante : Bleu\n", res)
 	case 1:
-		fmt.Printf("Valeur reçue : %d Couleur dominante ==> Vert\n", res)
+		fmt.Printf("Valeur reçue : %d ==> Couleur dominante : Vert\n", res)
 	case 2:
-		fmt.Printf("Valeur reçue : %d Couleur dominante ==> Rouge\n", res)
+		fmt.Printf("Valeur reçue : %d ==> Couleur dominante : Rouge\n", res)
 	default:
+		fmt.Printf("Valeur reçue : %d Couleur dominante : ???? \n", res)
 		break
 	}
 	cOut <- 1
-	fmt.Println("affichage_couleur OK")
 }
 
 func main() {
@@ -299,8 +283,6 @@ func main() {
 	for i := range pixels {
 		pIn[0] <- pixels[i]
 	}
-
-	fmt.Println("main OK")
 
 	// attente de la fin d'execution des goroutine
 	<-sync[0]
