@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'detection'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/tb_detection.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

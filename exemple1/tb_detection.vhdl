@@ -18,22 +18,38 @@ ARCHITECTURE test OF testbench IS
             p_red : out std_logic_vector (4 downto 0);
             p_green : out std_logic_vector (4 downto 0);
             p_blue : out std_logic_vector (4 downto 0);
-            cpt_pix : out std_logic_vector(2 downto 0)
+            cpt_pix : out std_logic_vector(2 downto 0);
+            R: out std_logic_vector(13 downto 0);
+            V: out std_logic_vector(13 downto 0);
+            B: out std_logic_vector(13 downto 0)
 
         );
     END COMPONENT;
 
     SIGNAL clk : STD_LOGIC :='1';
     SIGNAL spixel : std_logic_vector (15 downto 0);
-    SIGNAL res : std_logic_vector (1 downto 0);
+    SIGNAL res : std_logic_vector (1 downto 0) := std_logic_vector (to_unsigned(3,2));
     SIGNAL sp_red : STD_LOGIC_VECTOR (4 DOWNTO 0) := std_logic_vector (to_unsigned(0,5)) ;
     SIGNAL sp_green : STD_LOGIC_VECTOR (4 DOWNTO 0):= std_logic_vector (to_unsigned(0,5));
     SIGNAL sp_blue : STD_LOGIC_VECTOR (4 DOWNTO 0):= std_logic_vector (to_unsigned(0,5)) ;
-    SIGNAL scpt_pix : STD_LOGIC_VECTOR (2 DOWNTO 0);
+    SIGNAL scpt_pix : STD_LOGIC_VECTOR (2 DOWNTO 0):= std_logic_vector (to_unsigned(0,3));
+    SIGNAL red :  std_logic_vector(13 downto 0):=std_logic_vector (to_unsigned(0,14)) ;
+    SIGNAL green :  std_logic_vector(13 downto 0):=std_logic_vector (to_unsigned(0,14)) ;
+    SIGNAL blue :  std_logic_vector(13 downto 0):=std_logic_vector (to_unsigned(0,14)) ;
     
 BEGIN
-    detect : ENTITY work.detection(Behavioral) PORT MAP(gclk => clk, pixel => spixel, coul_dom => res, p_red => sp_red, 
-            p_green => sp_green, p_blue => sp_blue, cpt_pix =>scpt_pix);
+    detect : ENTITY work.detection(Behavioral) PORT MAP(
+            gclk     => clk, 
+            pixel    => spixel, 
+            coul_dom => res, 
+            p_red    => sp_red, 
+            p_green  => sp_green, 
+            p_blue   => sp_blue, 
+            cpt_pix  => scpt_pix,
+            R => red,
+            V => green,
+            B => blue
+            );
     PROCESS BEGIN
         
         spixel <= std_logic_vector(to_unsigned(63488,16)); -- RED 

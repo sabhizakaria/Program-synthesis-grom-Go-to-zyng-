@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../detection.vhdl" \
+"../../../../../tb_detection.vhdl" \
+
+# Do not sort compile order
+nosort

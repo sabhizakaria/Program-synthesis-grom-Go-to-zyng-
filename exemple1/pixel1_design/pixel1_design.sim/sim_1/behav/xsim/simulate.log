@@ -1,0 +1,276 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: INIT
+Time: 0 ps  Iteration: 0  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 0 ps  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 20 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 20 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 40 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: RED
+Time: 40 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 40 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 60 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 60 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 80 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 80 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 100 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 100 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 120 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 120 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 120 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 120 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 140 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 140 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 160 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 160 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 180 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 180 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 200 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 200 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 200 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 200 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 220 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 220 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 240 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 240 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 260 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 260 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 280 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 280 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 280 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 280 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 300 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 300 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 320 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 320 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 340 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 340 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 360 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 360 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 360 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 360 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 380 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 380 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 400 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 400 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 420 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 420 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 440 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 440 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 440 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 440 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 460 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 460 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 480 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 480 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 500 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 500 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 520 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 520 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 520 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 520 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 540 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 540 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 560 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 560 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 580 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 580 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 600 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 600 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 600 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 600 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 620 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 620 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 640 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 640 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 660 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 660 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 680 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 680 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 680 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 680 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 700 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 700 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 720 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 720 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 740 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 740 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 760 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 760 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 760 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 760 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 780 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 780 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 800 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 800 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 820 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 820 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 840 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 840 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 840 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 840 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 860 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 860 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 880 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 880 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 900 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 900 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 920 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 920 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 920 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 920 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 940 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 940 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 960 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: GREEN
+Time: 960 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 980 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 980 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 1 us  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 1 us  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: DONE
+Time: 1 us  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 1 us  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 0 ps  Iteration: 0  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 0 ps  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_RED
+Time: 20 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 20 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 40 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: RED
+Time: 40 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: INIT
+Time: 40 ns  Iteration: 2  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_GREEN
+Time: 60 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: SAME
+Time: 60 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/detection.vhdl
+Note: CPT_BLUE
+Time: 80 ns  Iteration: 1  Process: /testbench/detect/line__56  File: C:/Users/Zak/Desktop/master_2/projet/Program-s
