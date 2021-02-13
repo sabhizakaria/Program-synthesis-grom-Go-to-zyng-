@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/channel_design/channel_design.srcs/sources_1/new/input.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/channel_design/channel_design.srcs/sources_1/new/output.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/channel_design/channel_design.srcs/sources_1/new/channel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'channel'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Zak/Desktop/master_2/projet/Program-synthesis-grom-Go-to-zyng-/exemple1/channel_design/channel_design.srcs/sim_1/new/tb_channel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_channel'

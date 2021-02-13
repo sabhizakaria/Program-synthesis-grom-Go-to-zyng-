@@ -1,8 +1,8 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-use Ieee.STD_LOGIC_ARITH.ALL;
 use Ieee.STD_LOGIC_UNSIGNED.ALL;
 use IEEE.NUMERIC_STD.ALL;
+
 entity detection is
 	generic (
     	nb_pixel : integer := 4 ; 
@@ -53,7 +53,7 @@ architecture Behavioral of detection is
 
  begin
 
-	process(gclk,cptP,res,cptR,cptV,cptB)
+	process(gclk)--,cptP,res,cptR,cptV,cptB)
 
     begin
       if end_init = '0' then 
@@ -67,15 +67,11 @@ architecture Behavioral of detection is
            end_init <= '1';
 
       end if ;
-            R <=   cptR;
-            V <=   cptV;
-            B <=   cptB;
-         cpt_pix <= cptP ; 
-         coul_dom <= res ;  
+         
 
-      -- Recup?ation des valeurs et incrementation du resultat / nombre pix 
+      -- Recupération des valeurs et incrementation du resultat / nombre pix 
       if (gclk'event and gclk = '0') and pixel /= "00000000000000000" then
-         -- recup?ation de signaux 
+         -- recupération de signaux 
 		    valB <= pixel (4 downto 0);
 		    valV <= pixel (9 downto 5);
 		    valR <= pixel (15 downto 11);
@@ -116,7 +112,7 @@ architecture Behavioral of detection is
                     report ("SAME");
 				end if ;
 				-- dernier pixel 
-			if cptP = nb_pixel-1 then
+			if cptP = nb_pixel*2 then
 			    report ("DONE");
 			    end_init <= '0';
 			 end if ;
@@ -128,5 +124,10 @@ architecture Behavioral of detection is
 --cptP <= std_logic_vector (to_unsigned(1,pixel_len));
     end process;
  end_detection <= '1' ; 
+ R <=   cptR;
+ V <=   cptV;
+ B <=   cptB;
+ cpt_pix <= cptP;
+ coul_dom <= res ;
 
 end Behavioral;
