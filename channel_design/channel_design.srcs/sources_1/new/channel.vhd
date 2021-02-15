@@ -21,6 +21,7 @@ signal data : std_logic;
 
 component input
     port ( 
+        w_clk : in std_logic;
         start : in std_logic;
         transfer : in std_logic;
         ready : inout std_logic;
@@ -31,6 +32,7 @@ end component;
 
 component output
     port ( 
+        r_clk : in std_logic;
         start : in std_logic;
         transfer : in std_logic;
         ready : inout std_logic;
@@ -49,6 +51,7 @@ component register_8
 end component;
 begin
 write: entity work.input(Behavioral) port map (
+            w_clk => gclk,    
             start => start_write,
             transfer => inter_transfer,
             ready  => inter_ready_wr,
@@ -56,6 +59,7 @@ write: entity work.input(Behavioral) port map (
             finish => finish_write
         );
 read: entity work.output(Behavioral) port map (
+            r_clk => gclk,
             start => start_read,
             transfer => inter_transfer,
             ready  => inter_ready_rd,
