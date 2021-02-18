@@ -270,3 +270,555 @@ INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
 INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 7.289 seconds; current allocated memory: 191.495 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 5.292 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.599 seconds; current allocated memory: 191.494 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 4.04 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.363 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.227 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.36 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.57 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 6.455 seconds; current allocated memory: 191.544 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.893 seconds; current allocated memory: 191.495 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.188 seconds; current allocated memory: 191.456 MB.
+INFO: [HLS 200-10] Analyzing design file 'com_chan_axis.cpp' ... 
+WARNING: [HLS 214-140] Array stream parameter 'producer' in function 'axiStreamExample' may require the 'volatile' qualifier to prevent the compiler from altering array accesses and/or modifying the desired streaming order: com_chan_axis.cpp:20
+ERROR: [HLS 214-124] use of undeclared identifier 'axisMaster': com_chan_axis.cpp:30
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 12.893 seconds; current allocated memory: 192.820 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 18.16 seconds; peak allocated memory: 192.484 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 191.456 MB.
+INFO: [HLS 200-10] Analyzing design file 'com_chan_axis.cpp' ... 
+WARNING: [HLS 214-140] Array stream parameter 'producer' in function 'axiStreamExample' may require the 'volatile' qualifier to prevent the compiler from altering array accesses and/or modifying the desired streaming order: com_chan_axis.cpp:20
+WARNING: [HLS 214-140] Array stream parameter 'consumer' in function 'axiStreamExample' may require the 'volatile' qualifier to prevent the compiler from altering array accesses and/or modifying the desired streaming order: com_chan_axis.cpp:20
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: com_chan_axis.cpp:32:2
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file com_chan_axis.cpp
+WARNING: [HLS 207-1017] unknown pragma ignored: com_chan_axis.cpp:25:9
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 12.245 seconds; current allocated memory: 192.862 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::to_int() const' into 'axiStreamExample(hls::axis<ap_int<32>, 2ul, 1ul, 1ul>*, hls::axis<ap_int<32>, 2ul, 1ul, 1ul>*)' (com_chan_axis.cpp:33:39)
+WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'producer' (com_chan_axis.cpp:20:0)
+WARNING: [HLS 214-142] Implementing stream: may cause mismatch if read and write accesses are not in sequential order on port 'consumer' (com_chan_axis.cpp:20:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_ints' into 'axiStreamExample(hls::axis<ap_int<32>, 2ul, 1ul, 1ul>*, hls::axis<ap_int<32>, 2ul, 1ul, 1ul>*)' (com_chan_axis.cpp:33:20)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.191 seconds; current allocated memory: 193.444 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.167 seconds; current allocated memory: 193.445 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.248 seconds; current allocated memory: 200.166 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.683 seconds; current allocated memory: 208.903 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_32_1' in function 'axiStreamExample' automatically.
+INFO: [XFORM 203-721] Changing loop 'Loop_VITIS_LOOP_32_1_proc' to a process function for dataflow in function 'axiStreamExample'.
+WARNING: [HLS 200-786] Detected dataflow-on-top in function  'axiStreamExample' (com_chan_axis.cpp:20)  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).
+INFO: [XFORM 203-712] Applying dataflow to function 'axiStreamExample' (com_chan_axis.cpp:20), detected/extracted 1 process function(s): 
+	 'Loop_VITIS_LOOP_32_1_proc3'.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.969 seconds; current allocated memory: 239.358 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.727 seconds; current allocated memory: 245.671 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'axiStreamExample' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Loop_VITIS_LOOP_32_1_proc3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_32_1'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between axis read on port 'producer' and axis read on port 'producer'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between axis read on port 'producer' and axis read on port 'producer'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between axis read on port 'producer' and axis read on port 'producer'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between axis read on port 'producer' (com_chan_axis.cpp:34) and axis read on port 'producer'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1) between axis read on port 'producer' (com_chan_axis.cpp:37) and axis read on port 'producer'.
+WARNING: [HLS 200-880] The II Violation in module 'Loop_VITIS_LOOP_32_1_proc3' (loop 'VITIS_LOOP_32_1'): Unable to enforce a carried dependence constraint (II = 9, distance = 1, offset = 1) between axis read on port 'producer' (com_chan_axis.cpp:39) and axis read on port 'producer'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 10, Depth = 15, loop 'VITIS_LOOP_32_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.265 seconds; current allocated memory: 246.058 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.55 seconds; current allocated memory: 246.303 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'axiStreamExample' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.326 seconds; current allocated memory: 246.360 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.29 seconds; current allocated memory: 246.460 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Loop_VITIS_LOOP_32_1_proc3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_3ns_32_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Loop_VITIS_LOOP_32_1_proc3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.631 seconds; current allocated memory: 247.293 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'axiStreamExample' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'axiStreamExample/producer' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'axiStreamExample/consumer' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'axiStreamExample' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'axiStreamExample'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.942 seconds; current allocated memory: 248.139 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'axiStreamExample_mul_32s_3ns_32_2_1_Multiplier_0'
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 4.376 seconds; current allocated memory: 255.326 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for axiStreamExample.
+INFO: [VLOG 209-307] Generating Verilog RTL for axiStreamExample.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 144.68 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 7 seconds. CPU system time: 1 seconds. Elapsed time: 37.29 seconds; current allocated memory: 255.441 MB.
+INFO: [HLS 200-112] Total CPU user time: 13 seconds. Total CPU system time: 3 seconds. Total elapsed time: 42.581 seconds; peak allocated memory: 255.326 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl vhdl -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file axis_chan_com_hls/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 131.742 seconds; current allocated memory: 198.637 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.843 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.841 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.908 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 9.732 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 8.494 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 8.334 seconds; current allocated memory: 191.535 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.534 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.809 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.926 seconds; current allocated memory: 191.535 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.095 seconds; current allocated memory: 191.534 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.687 seconds; current allocated memory: 191.534 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.574 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.214 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.066 seconds; current allocated memory: 191.563 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=vhdl
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl vhdl 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 7.282 seconds; current allocated memory: 191.530 MB.

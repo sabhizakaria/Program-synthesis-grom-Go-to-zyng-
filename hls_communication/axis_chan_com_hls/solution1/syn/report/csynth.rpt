@@ -1,0 +1,26 @@
+
+
+================================================================
+== Synthesis Summary Report of 'axiStreamExample'
+================================================================
++ General Information: 
+    * Date:           Thu Feb 18 17:43:15 2021
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+    * Project:        axis_chan_com_hls
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-----------------------------------------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    |                 Modules                 | Issue|       | Latency | Latency | Iteration|         | Trip |          |      |    |           |           |     |
+    |                 & Loops                 | Type | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT    | URAM|
+    +-----------------------------------------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    |+ axiStreamExample*                      |     -|  -0.39|       56|  560.000|         -|       57|     -|  dataflow|     -|   -|  249 (~0%)|  289 (~0%)|    -|
+    | + grp_Loop_VITIS_LOOP_32_1_proc3_fu_28  |     -|  -0.39|       56|  560.000|         -|       56|     -|        no|     -|   -|  249 (~0%)|  289 (~0%)|    -|
+    |  o VITIS_LOOP_32_1                      |    II|  -7.30|       54|  540.000|        15|       10|     5|       yes|     -|   -|          -|          -|    -|
+    +-----------------------------------------+------+-------+---------+---------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+

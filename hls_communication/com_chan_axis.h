@@ -4,9 +4,8 @@
 #include <stdlib.h>
 #include "ap_axi_sdata.h"
 #include "hls_stream.h"
-
-
 typedef ap_axis<32,2,1,1> AXIS_STREAM;
-
-void axiStreamExample (AXIS_STREAM axisSlave, AXIS_STREAM* axisMaster);
+void producer(AXIS_STREAM* output);
+void consumer(AXIS_STREAM* input);
+void axiStreamExample (AXIS_STREAM* producer, AXIS_STREAM *consumer);
 #endif

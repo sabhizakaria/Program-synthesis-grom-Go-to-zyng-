@@ -11,8 +11,9 @@ add_files -tb tb_com_chan_axis.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xc7z020clg484-1}
 create_clock -period 10 -name default
+config_export -format ip_catalog -rtl vhdl
 #source "./axis_chan_com_hls/solution1/directives.tcl"
 csim_design -clean
 csynth_design
 cosim_design
-export_design -format ip_catalog
+export_design -rtl vhdl -format ip_catalog

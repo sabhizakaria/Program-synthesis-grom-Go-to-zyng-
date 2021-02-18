@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1613666594971">
+  <ports id="1" name="producer" type="PortType" coreId="3272718294" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="consumer" type="PortType" coreId="0" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="58" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="59" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="60" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="63" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="64" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="67" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="70" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="71" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="72" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="75" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="77" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="79" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="81" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="84" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="85" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="86" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="87" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="88" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="89" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="90" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="91" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="94" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@ports.1"/>
+  <edges id="95" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="98" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="104" source_obj="//@regions.0/@basic_blocks.1/@node_objs.10" sink_obj="//@ports.1"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="107" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="113" source_obj="//@regions.0/@basic_blocks.1/@node_objs.12" sink_obj="//@ports.1"/>
+  <edges id="114" source_obj="//@regions.0/@basic_blocks.1/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.12"/>
+  <edges id="116" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.13"/>
+  <edges id="122" source_obj="//@regions.0/@basic_blocks.1/@node_objs.14" sink_obj="//@ports.1"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.1/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.14"/>
+  <edges id="125" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.16"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.1/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.17"/>
+  <edges id="129" source_obj="//@regions.0/@basic_blocks.1/@node_objs.18" sink_obj="//@ports.1"/>
+  <edges id="130" source_obj="//@regions.0/@basic_blocks.1/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.18"/>
+  <edges id="132" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.19"/>
+  <edges id="133" source_obj="//@regions.0/@basic_blocks.1/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.20"/>
+  <edges id="134" source_obj="//@regions.0/@basic_blocks.1/@node_objs.20" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.21"/>
+  <edges id="136" source_obj="//@regions.0/@basic_blocks.1/@node_objs.22" sink_obj="//@ports.1"/>
+  <edges id="137" source_obj="//@regions.0/@basic_blocks.1/@node_objs.21" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.22"/>
+  <edges id="139" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.23"/>
+  <edges id="140" source_obj="//@regions.0/@basic_blocks.1/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.24"/>
+  <edges id="141" source_obj="//@regions.0/@basic_blocks.1/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.25"/>
+  <edges id="143" source_obj="//@regions.0/@basic_blocks.1/@node_objs.26" sink_obj="//@ports.1"/>
+  <edges id="144" source_obj="//@regions.0/@basic_blocks.1/@node_objs.25" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.26"/>
+  <edges id="146" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.27"/>
+  <edges id="147" source_obj="//@regions.0/@basic_blocks.1/@node_objs.27" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.28"/>
+  <edges id="148" source_obj="//@regions.0/@basic_blocks.1/@node_objs.28" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.29"/>
+  <edges id="150" source_obj="//@regions.0/@basic_blocks.1/@node_objs.30" sink_obj="//@ports.1"/>
+  <edges id="151" source_obj="//@regions.0/@basic_blocks.1/@node_objs.29" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.30"/>
+  <edges id="153" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.31"/>
+  <edges id="154" source_obj="//@regions.0/@basic_blocks.1/@node_objs.31" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.32"/>
+  <edges id="155" source_obj="//@regions.0/@basic_blocks.1/@node_objs.32" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.33"/>
+  <edges id="157" source_obj="//@regions.0/@basic_blocks.1/@node_objs.34" sink_obj="//@ports.1"/>
+  <edges id="158" source_obj="//@regions.0/@basic_blocks.1/@node_objs.33" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.34"/>
+  <edges id="160" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.35"/>
+  <edges id="161" source_obj="//@regions.0/@basic_blocks.1/@node_objs.35" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.36"/>
+  <edges id="162" source_obj="//@regions.0/@basic_blocks.1/@node_objs.36" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.37"/>
+  <edges id="164" source_obj="//@regions.0/@basic_blocks.1/@node_objs.38" sink_obj="//@ports.1"/>
+  <edges id="165" source_obj="//@regions.0/@basic_blocks.1/@node_objs.37" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.38"/>
+  <edges id="166" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.39"/>
+  <edges id="230" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="231" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="232" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="233" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="234" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.34" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.38"/>
+  <edges id="235" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.31" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.35"/>
+  <edges id="236" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.30" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.34"/>
+  <edges id="237" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.27" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.31"/>
+  <edges id="238" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.26" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.30"/>
+  <edges id="239" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.27"/>
+  <edges id="240" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.26"/>
+  <edges id="241" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.23"/>
+  <edges id="242" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.22"/>
+  <edges id="243" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.19"/>
+  <edges id="244" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.18"/>
+  <edges id="245" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.14"/>
+  <edges id="246" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.12"/>
+  <edges id="247" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="248" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="249" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="250" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="251" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="2147483647" source_obj="//@regions.0/@basic_blocks.1/@node_objs.35" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0" is_back_edge="1"/>
+  <blocks id="6" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_13</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="br_ln0" coreId="54" opcode="br" m_display="0" m_delay="1.58" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <controlInputObjs>block_13</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="57" name="axiStreamExample_.exit.exitStub" type="BlockType">
+    <controlInputObjs>block_13</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="_ln0" coreId="0" opcode="ret" nodeLabel="16.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="10" typeName="Pipeline" id="259" pipe_depth="15" RegionName="VITIS_LOOP_32_1">
+    <basic_blocks id="13" name="block_13" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>block_55</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>axiStreamExample_.exit.exitStub</controlOutputObjs>
+      <controlOutputObjs>block_55</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="7" name="i" lineNumber="33" originalName="i" fileName="com_chan_axis.cpp" fileDirectory=".." coreId="44" contextFuncName="axiStreamExample" bitwidth="3" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <controlInputObjs>block_55</controlInputObjs>
+        <controlInputObjs>newFuncRoot</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="8" name="add_ln32" lineNumber="32" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="add_ln32_fu_87_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="axiStreamExample" bitwidth="3" opcode="add" nodeLabel="4.0" m_display="0" m_delay="1.65" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="32" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="10" name="icmp_ln32" lineNumber="32" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="icmp_ln32_fu_81_p2" opType="icmp" coreId="54" contextFuncName="axiStreamExample" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="1.13" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="32" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="br_ln32" lineNumber="32" fileName="com_chan_axis.cpp" fileDirectory=".." coreId="0" contextFuncName="axiStreamExample" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="32" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>block_55</controlInputObjs>
+        <controlInputObjs>axiStreamExample_.exit.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="com_chan_axis.cpp">
+        <validLinenumbers>33</validLinenumbers>
+        <validLinenumbers>32</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="55" name="block_55" type="BlockType">
+      <controlInputObjs>block_13</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_13</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="producer_read" lineNumber="545" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="to_int" bitwidth="8" opcode="read" nodeLabel="1.0" m_display="1" m_isLCDNode="true" m_isStartOfPath="true" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" linenumber="545" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="to_int"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="producer_read_1" lineNumber="545" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="to_int" bitwidth="8" opcode="read" nodeLabel="2.0" m_display="1" m_isLCDNode="true" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" linenumber="545" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="to_int"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="producer_read_2" lineNumber="545" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="to_int" bitwidth="8" opcode="read" nodeLabel="3.0" m_display="1" m_isLCDNode="true" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" linenumber="545" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="to_int"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="producer_read_3" lineNumber="545" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="to_int" bitwidth="8" opcode="read" nodeLabel="4.0" m_display="1" m_isLCDNode="true" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" linenumber="545" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="to_int"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="or_ln545_2_i" lineNumber="545" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="grp_fu_106_p0" coreId="0" contextFuncName="to_int" bitwidth="32" opcode="bitconcatenate" nodeLabel="4.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h" linenumber="545" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="to_int"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>mul</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="zext_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="grp_fu_106_p10" coreId="3251269749" contextFuncName="axiStreamExample" bitwidth="32" opcode="zext" nodeLabel="4.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>mul</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="mul_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="mul_32s_3ns_32_2_1_U1" opType="mul" coreId="0" contextFuncName="axiStreamExample" bitwidth="32" opcode="mul" nodeLabel="4.0" nodeLatency="1" m_display="0" m_delay="6.91" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="trunc_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln33_fu_112_p1" coreId="4294967295" contextFuncName="axiStreamExample" bitwidth="8" opcode="trunc" nodeLabel="5.0" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="consumer_write_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="5.0" nodeLatency="1" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="trunc_ln33_2" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln33_2_reg_234" coreId="0" contextFuncName="axiStreamExample" bitwidth="8" opcode="partselect" nodeLabel="5.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="consumer_write_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="6.0" nodeLatency="1" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="trunc_ln33_3" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln33_3_reg_239" coreId="0" contextFuncName="axiStreamExample" bitwidth="8" opcode="partselect" nodeLabel="5.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="consumer_write_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="7.0" nodeLatency="1" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="trunc_ln33_4" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln33_4_reg_244" coreId="231" contextFuncName="axiStreamExample" bitwidth="8" opcode="partselect" nodeLabel="5.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="consumer_write_ln33" lineNumber="33" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="8.0" nodeLatency="1" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="33" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="producer_read_4" lineNumber="34" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="5.0" m_display="1" m_isLCDNode="true" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="34" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="trunc_ln34" lineNumber="34" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln34_fu_147_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="4" opcode="trunc" nodeLabel="5.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="34" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="zext_ln34" lineNumber="34" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln34_fu_163_p1" coreId="182" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="34" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="consumer_write_ln34" lineNumber="34" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="9.0" nodeLatency="1" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="34" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="producer_read_5" lineNumber="35" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="6.0" m_display="1" m_isLCDNode="true" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="35" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="trunc_ln35" lineNumber="35" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln35_fu_151_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="4" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="35" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="zext_ln35" lineNumber="35" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln35_fu_171_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="10.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="35" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="consumer_write_ln35" lineNumber="35" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="10.0" nodeLatency="1" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="35" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="producer_read_6" lineNumber="36" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="7.0" m_display="1" m_isLCDNode="true" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="36" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="trunc_ln36" lineNumber="36" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln36_fu_155_p1" coreId="450" contextFuncName="axiStreamExample" bitwidth="2" opcode="trunc" nodeLabel="7.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="36" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="zext_ln36" lineNumber="36" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln36_fu_179_p1" coreId="99" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="11.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="36" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="consumer_write_ln36" lineNumber="36" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="11.0" nodeLatency="1" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="36" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="producer_read_7" lineNumber="37" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="8.0" m_display="1" m_isLCDNode="true" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="37" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="trunc_ln37" lineNumber="37" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln37_fu_159_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="1" opcode="trunc" nodeLabel="8.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="37" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="zext_ln37" lineNumber="37" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln37_fu_183_p1" coreId="69" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="12.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="37" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="consumer_write_ln37" lineNumber="37" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="12.0" nodeLatency="1" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="37" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="producer_read_8" lineNumber="38" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="9.0" m_display="1" m_isLCDNode="true" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="38" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="trunc_ln38" lineNumber="38" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln38_fu_167_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="1" opcode="trunc" nodeLabel="9.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="38" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="zext_ln38" lineNumber="38" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln38_fu_187_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="13.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="38" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="consumer_write_ln38" lineNumber="38" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="13.0" nodeLatency="1" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="38" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="producer_read_9" lineNumber="39" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" bitwidth="8" opcode="read" nodeLabel="10.0" m_display="1" m_isLCDNode="true" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="39" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>producer</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>read</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="trunc_ln39" lineNumber="39" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="trunc_ln39_fu_175_p1" coreId="0" contextFuncName="axiStreamExample" bitwidth="1" opcode="trunc" nodeLabel="10.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="39" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="zext_ln39" lineNumber="39" fileName="com_chan_axis.cpp" fileDirectory=".." rtlName="zext_ln39_fu_191_p1" coreId="72" contextFuncName="axiStreamExample" bitwidth="8" opcode="zext" nodeLabel="14.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="39" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="consumer_write_ln39" lineNumber="39" fileName="com_chan_axis.cpp" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="auto" opType="adapter" coreId="115" contextFuncName="axiStreamExample" opcode="write" nodeLabel="14.0" nodeLatency="1" m_display="0" m_topoIndex="44" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="39" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>consumer</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="br_ln32" lineNumber="32" fileName="com_chan_axis.cpp" fileDirectory=".." coreId="0" contextFuncName="axiStreamExample" opcode="br" nodeLabel="15.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="com_chan_axis.cpp" linenumber="32" fileDirectory="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\hls_communication" functionName="axiStreamExample"/>
+        <controlInputObjs>block_13</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="com_chan_axis.cpp">
+        <validLinenumbers>33</validLinenumbers>
+        <validLinenumbers>34</validLinenumbers>
+        <validLinenumbers>35</validLinenumbers>
+        <validLinenumbers>36</validLinenumbers>
+        <validLinenumbers>37</validLinenumbers>
+        <validLinenumbers>38</validLinenumbers>
+        <validLinenumbers>39</validLinenumbers>
+        <validLinenumbers>32</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h">
+        <validLinenumbers>545</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <ScheduleInfo time="7"/>
+  <ScheduleInfo time="8"/>
+  <ScheduleInfo time="9"/>
+  <ScheduleInfo time="10"/>
+  <ScheduleInfo time="11"/>
+  <ScheduleInfo time="12"/>
+  <ScheduleInfo time="13"/>
+  <ScheduleInfo time="14"/>
+  <ScheduleInfo time="15"/>
+  <ScheduleInfo time="16"/>
+  <regnodes realName="trunc_ln36_reg_259">
+    <nodeIds>39</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln33_4_reg_244">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln35_reg_254">
+    <nodeIds>35</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln36_reg_289">
+    <nodeIds>40</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln32_reg_195">
+    <nodeIds>10</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln35_reg_279">
+    <nodeIds>36</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln37_reg_294">
+    <nodeIds>44</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln39_reg_284">
+    <nodeIds>51</nodeIds>
+  </regnodes>
+  <regnodes realName="producer_read_reg_199">
+    <nodeIds>15</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln33_reg_229">
+    <nodeIds>22</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln38_reg_274">
+    <nodeIds>47</nodeIds>
+  </regnodes>
+  <regnodes realName="add_ln32_reg_214">
+    <nodeIds>8</nodeIds>
+  </regnodes>
+  <regnodes realName="producer_read_1_reg_204">
+    <nodeIds>16</nodeIds>
+  </regnodes>
+  <regnodes realName="or_ln545_2_i_reg_219">
+    <nodeIds>19</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_69">
+    <nodeIds>7</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln37_reg_264">
+    <nodeIds>43</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln38_reg_299">
+    <nodeIds>48</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln33_3_reg_239">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln34_reg_249">
+    <nodeIds>31</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln34_reg_269">
+    <nodeIds>32</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln39_reg_304">
+    <nodeIds>52</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln33_2_reg_234">
+    <nodeIds>24</nodeIds>
+  </regnodes>
+  <regnodes realName="producer_read_2_reg_209">
+    <nodeIds>17</nodeIds>
+  </regnodes>
+  <regnodes realName="zext_ln33_reg_224">
+    <nodeIds>20</nodeIds>
+  </regnodes>
+  <expressionNodes realName="or_ln545_2_i_fu_93">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln39_fu_175">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln37_fu_183">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln38_fu_167">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln35_fu_171">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln32_fu_81">
+    <nodeIds>10</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln36_fu_155">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln37_fu_159">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln32_fu_87">
+    <nodeIds>8</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln33_fu_112">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln34_fu_147">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln33_fu_102">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln33_2_fu_117">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln33_4_fu_137">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln33_3_fu_127">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln34_fu_163">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln36_fu_179">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln39_fu_191">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln35_fu_151">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_phi_fu_73">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln38_fu_187">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_fu_106">
+    <nodeIds>21</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="grp_read_fu_56">
+    <nodeIds>15</nodeIds>
+    <nodeIds>16</nodeIds>
+    <nodeIds>17</nodeIds>
+    <nodeIds>18</nodeIds>
+    <nodeIds>30</nodeIds>
+    <nodeIds>34</nodeIds>
+    <nodeIds>38</nodeIds>
+    <nodeIds>42</nodeIds>
+    <nodeIds>46</nodeIds>
+    <nodeIds>50</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_write_fu_62">
+    <nodeIds>23</nodeIds>
+    <nodeIds>25</nodeIds>
+    <nodeIds>27</nodeIds>
+    <nodeIds>29</nodeIds>
+    <nodeIds>33</nodeIds>
+    <nodeIds>37</nodeIds>
+    <nodeIds>41</nodeIds>
+    <nodeIds>45</nodeIds>
+    <nodeIds>49</nodeIds>
+    <nodeIds>53</nodeIds>
+  </ioNodes>
+  <ioPorts name="consumer">
+    <contents name="write">
+      <nodeIds>23</nodeIds>
+      <nodeIds>25</nodeIds>
+      <nodeIds>27</nodeIds>
+      <nodeIds>29</nodeIds>
+      <nodeIds>33</nodeIds>
+      <nodeIds>37</nodeIds>
+      <nodeIds>41</nodeIds>
+      <nodeIds>45</nodeIds>
+      <nodeIds>49</nodeIds>
+      <nodeIds>53</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="producer">
+    <contents name="read">
+      <nodeIds>15</nodeIds>
+      <nodeIds>16</nodeIds>
+      <nodeIds>17</nodeIds>
+      <nodeIds>18</nodeIds>
+      <nodeIds>30</nodeIds>
+      <nodeIds>34</nodeIds>
+      <nodeIds>38</nodeIds>
+      <nodeIds>42</nodeIds>
+      <nodeIds>46</nodeIds>
+      <nodeIds>50</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="16" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="17" stage="1" latency="1"/>
+    </states>
+    <states id="5">
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="2" latency="2"/>
+    </states>
+    <states id="6">
+      <operations id="21" stage="1" latency="2"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="2" latency="2"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+    </states>
+    <states id="7">
+      <operations id="23" stage="1" latency="2"/>
+      <operations id="25" stage="2" latency="2"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+    </states>
+    <states id="8">
+      <operations id="25" stage="1" latency="2"/>
+      <operations id="27" stage="2" latency="2"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+    </states>
+    <states id="9">
+      <operations id="27" stage="1" latency="2"/>
+      <operations id="29" stage="2" latency="2"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+    </states>
+    <states id="10">
+      <operations id="29" stage="1" latency="2"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="2" latency="2"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+    </states>
+    <states id="11">
+      <operations id="33" stage="1" latency="2"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="2" latency="2"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+    </states>
+    <states id="12">
+      <operations id="37" stage="1" latency="2"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="2" latency="2"/>
+    </states>
+    <states id="13">
+      <operations id="41" stage="1" latency="2"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="2" latency="2"/>
+    </states>
+    <states id="14">
+      <operations id="45" stage="1" latency="2"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="2" latency="2"/>
+    </states>
+    <states id="15">
+      <operations id="49" stage="1" latency="2"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="2" latency="2"/>
+    </states>
+    <states id="16">
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="2"/>
+      <operations id="54" stage="1" latency="1"/>
+    </states>
+    <states id="17">
+      <operations id="56" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="9">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="9" outState="10">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="10" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="12">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="12" outState="13">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="13" outState="14">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="14" outState="15">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="15" outState="16">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="16" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="17">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="Loop_VITIS_LOOP_32_1_proc3" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="56" mMaxLatency="56">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>6</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_32_1" mII="10" mDepth="15" mMinTripCount="5" mMaxTripCount="5" mMinLatency="54" mMaxLatency="54" mType="1">
+      <basicBlocks>13</basicBlocks>
+      <basicBlocks>55</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>57</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

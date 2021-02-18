@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="axiStreamExample" xd:componentRef="axiStreamExample" xd:initiationInterval="57" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="producer" xd:originalName="producer" xd:direction="in" xd:interfaceRef="producer" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="consumer" xd:originalName="consumer" xd:direction="out" xd:interfaceRef="consumer" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="56" xd:worst-case="56" xd:average-case="56"/>
+  <xd:resourceEstimates xd:LUT="289" xd:FF="249" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>
