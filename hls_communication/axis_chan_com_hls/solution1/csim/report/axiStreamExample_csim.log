@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../tb_com_chan_axis.cpp in debug mode
+   Compiling ../../../../com_chan_axis.cpp in debug mode
+   Generating csim.exe
+Slave input 2 
+Master input 10 
+SUCCESS : match between HW and SW results 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
