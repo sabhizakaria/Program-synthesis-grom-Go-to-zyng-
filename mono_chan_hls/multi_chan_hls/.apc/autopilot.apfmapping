@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="com_chan_axis.cpp" path="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\multi_chan_hls\com_chan_axis.cpp"/>
+    <originFiles name="com_chan_axis.h" path="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\multi_chan_hls\com_chan_axis.h"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_com_chan_axis.cpp" path="C:\Users\Zak\Desktop\master_2\projet\Program-synthesis-grom-Go-to-zyng-\multi_chan_hls\tb_com_chan_axis.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
