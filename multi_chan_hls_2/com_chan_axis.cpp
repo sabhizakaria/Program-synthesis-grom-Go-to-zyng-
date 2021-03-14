@@ -15,7 +15,7 @@
 
 */
 
-int send(AXI_STREAM* streamData, AXI_STREAM * chan){
+int traitement(AXI_STREAM* streamData, AXI_STREAM * chan){
 
 	AXI_VALUE data;
 	AXI_VALUE tmpData;
@@ -67,47 +67,23 @@ int initStream(AXI_STREAM * streamData){
 
 
 
-int communication(AXI_STREAM* streamData){
+int application(AXI_STREAM* streamData){
 	#pragma HLS DATAFLOW
 	#pragma HLS INTERFACE axis port=cha1
 
 	int i , ret;
 	AXI_STREAM chaB, chaC, buffer;
 	// Initialisation des données
-	ret = initStream(streamData);
-	if (ret){
-		perror("Stream init data error");
-		return EXIT_FAILURE;
-	}
-	printf("----------------------------Noeud A (producer)----------------------------\n");
-	// Envoie des données au noeud B
-
-	ret = send(streamData, &chaB);
-	if (ret){
-		perror("Sending to B data error");
-		return EXIT_FAILURE;
-	}
-	// La lecture des stream consomme les données ( passer par un tampon ou renitialiser les données ? )
-	printf("----------------------------Noeud B (treatement)----------------------------\n");
+	initStream(streamData);
+	printf("----------------------------Noeud A (traitement et envoie )----------------------------\n");
+	// Envoie des données au noeud
+	traitement(streamData, &chaB);
+	printf("----------------------------Noeud B (reception et traitement )----------------------------\n");
 	// Reception des données
-	ret= receive(&chaB,&buffer);
-	if (ret){
-		perror("receive from A data error");
-		return EXIT_FAILURE;
-	}
-
-	ret = send(&buffer, &chaC);
-	if (ret){
-		perror("Sending to B data error");
-		return EXIT_FAILURE;
-	}
-
+	receive(&chaB,&buffer);
+	traitement(&buffer, &chaC);
 	printf("----------------------------Noeud C (consumer)----------------------------\n");
-	ret = receive(&chaC,&buffer);
-	if (ret){
-		perror("receive from A data error");
-		return EXIT_FAILURE;
-	}
+	receive(&chaC,&buffer);
 	read_chan(&buffer);
 	return EXIT_SUCCESS;
 

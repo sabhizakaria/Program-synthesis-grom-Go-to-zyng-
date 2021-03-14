@@ -3,6 +3,6 @@
 int main (){
 
 	AXI_STREAM streamData;
-	communication(&streamData);
+	application(&streamData);
 	return EXIT_SUCCESS;
 }

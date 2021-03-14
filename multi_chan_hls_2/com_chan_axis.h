@@ -12,8 +12,8 @@ typedef hls::stream <AXI_VALUE> AXI_STREAM;
 
 void read_chan(AXI_STREAM* channel);
 int initStream(AXI_STREAM* streamData);
-int send(AXI_STREAM* streamData, AXI_STREAM* chan);
+int traitement(AXI_STREAM* streamData, AXI_STREAM* chan);
 int receive(AXI_STREAM* cha, AXI_STREAM* data);
-int communication(AXI_STREAM*  cha1);
+int application(AXI_STREAM*  cha1);
 
 #endif
